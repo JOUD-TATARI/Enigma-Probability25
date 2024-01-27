@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+:root {
+    --first-color: #29235c;
+    --color-botton: blue;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Cairo', sans-serif;
+    background: #F5F5F5;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* span
+{
+    display: block;
+} */
+
+
+.header-lists ul li.levels a {
+    color: white;
+}
+
+
+
+/* end navbar */
+/* ----------------------------------------- */
+
+/* home */
+.home {
+    margin-top: 96px;
+    margin-bottom: 96px;
+}
+
+.home .h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.whats-learn {
+    border-radius: 32px;
+    background: #FFF;
+    box-shadow: 0px 46px 64px -13px rgba(0, 0, 0, 0.12);
+}
+
+.whats-learn-items {
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.item-1 {
+    padding: 24px;
+    width: 440px;
+    height: 332px;
+}
+
+.item-1 h2 {
+    margin-bottom: 24px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.item-1 p {
+    font-family: Cairo;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.36px;
+}
+
+@media screen and (min-width:401px) and (max-width:1300px) {
+    .container {
+        padding-left: 16px;
+
+        padding-right: 16px;
+    }
+
+    .whats-learn-items {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 16px;
+    }
+
+    .whats-learn .item-2 img {
+        width: 100%;
+    }
+
+    .item-1 {
+        width: auto;
+        height: auto;
+        padding: 16px;
+    }
+    .home {
+        margin-top: 0px;
+    }
+    .home .h1
+    {
+        font-family: Cairo;
+        font-family: 47px;
+    }
+
+}
+
+/* ---------------------------------------- */
+.study-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 24px;
+}
+
+.btn {
+    height: 42px;
+    border-radius: 40px;
+    opacity: 0.8;
+    transition: opacity 0.5s;
+    font-family: 'Cairo', sans-serif;
+}
+
+.btn a {
+    padding: 4px 16px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.36px;
+    /* font-family: 'Cairo', sans-serif; */
+}
+
+.btn-Lesson {
+    background: #6B73FF;
+    width: 134px;
+    border: 1px solid #6B73FF;
+}
+
+.btn-activities {
+    background: #E8E8E8;
+    border: 1px solid #E8E8E8;
+}
+
+.btn-activities a {
+    color: #6B73FF;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+
+
+.study-item {
+    /* background-color: rgba(128, 128, 128, 0.458);     */
+    background-color: rgba(224, 224, 224, 0.50);
+    width: 367px;
+    height: 351px;
+    border-radius: 12px;
+    position: relative;
+}
+
+.study-item .description {
+    border-radius: 12px;
+    background-color: #FFF;
+    box-shadow: 0px 16px 34px -13px rgba(0, 0, 0, 0.06);
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    width: 367px;
+    height: 217.83px;
+    /* padding-left: 40px; */
+}
+
+.description span {
+    display: block;
+    color: #0961F5;
+    background-color: #fff;
+    height: 35px;
+    width: 120px;
+    border-radius: 12px;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.12);
+}
+
+.description p {
+    margin-top: 15px;
+    margin-right: 20px;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.study-items-father {
+    display: grid; 
+    grid-template-columns: repeat(3, 367px);
+    /* flex-direction: row;*/
+    /* display: flex;
+    flex-direction: row; */
+    gap: 24px;
+    flex-wrap: wrap;
+    padding-bottom: 134px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.study-item-q-content {
+    background-color: #0961F5;
+    width: 367px;
+    height: 351px;
+    border-radius: 12px;
+    box-shadow: 0px 36px 44px -20px rgba(9, 97, 245, 0.24);
+    position: relative;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: -0.39px;
+    display: none;
+    transition: all 0.5s;
+}
+
+.study-item-q-content-top {
+    position: absolute;
+    left: 0;
+}
+
+.study-item-q-content-bottom {
+    position: absolute;
+    bottom: -7px;
+    right: 0;
+}
+
+.study-item-q-content-section {
+    display: flex;
+    flex-direction: row;
+    gap: 8.44px;
+    padding-right: 21px;
+    align-items: center;
+}
+
+.study-item-q-content-first-section {
+    padding-top: 39px;
+}
+
+.study-item-q-content-first-section .study-item-q-content-section-1 {
+    position: relative;
+}
+
+.study-item-q-content-section h3 {
+    color: #E9E9E9;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.study-item-q-content-first-section .study-item-q-content-section-1::after {
+    content: "";
+    position: absolute;
+    width: 0.5px;
+    height: 27px;
+    background-color: rgba(224, 224, 224, 0.50);
+    top: 28px;
+    left: 14px;
+}
+
+.study-item-q-content-first-section .study-item-q-content-section-1::before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 287px;
+    background-color: rgba(224, 224, 224, 0.50);
+    top: 38px;
+    right: 35px;
+}
+
+.study-item-q-content-second-section {
+    padding-top: 15px;
+}
+
+.study-item-q-content-second-section .study-item-q-content-section-1 {
+    background-color: #F9F9F9;
+    width: 17px;
+    height: 17px;
+    border-radius: 50px;
+    line-height: 20px;
+    margin-right: 5px;
+}
+
+.study-item-q-content-second-section .study-item-q-content-section-1::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 40px;
+    background-color: rgba(224, 224, 224, 0.50);
+    top: 113px;
+    right: 34px;
+}
+
+.study-item-q-content-third-section span {
+    display: block;
+    background-color: #F9F9F9;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.study-item-q-content-third-section .study-item-q-content-section-1::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 40px;
+    background-color: rgba(224, 224, 224, 0.50);
+    top: 167px;
+    right: 34px;
+}
+
+.study-paragraph {
+    padding-right: 50px;
+    color: rgba(249, 249, 249, 0.50);
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 8px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.study-item-q-content-fourth-section span {
+    background-color: #F9F9F9;
+    width: 17px;
+    height: 17px;
+    flex-shrink: 0;
+    margin-right: 5px;
+}
+
+.study-item-q-content-fourth-section .study-item-q-content-section-1::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 40px;
+    background-color: rgba(224, 224, 224, 0.50);
+    top: 224px;
+    right: 34px;
+}
+
+.study-item-q-content-start {
+    padding-right: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.study-item-q-content-start a {
+    z-index: 1;
+    color: #FFF;
+    font-family: Cairo;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.study-item-q-content-start .dir {
+    padding-left: 24px;
+}
+
+
+
+.study-items {
+    position: relative;
+    transition: all 0.5s;
+}
+
+.study-items:hover .study-item-q-content {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+}
+footer
+{
+    padding-top: 134px;
+}
+
+@media screen and (min-width:401px) and (max-width:766px) {
+    .study-items-father {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        padding-bottom: 32px;
+        justify-content: center;
+        align-items: center;
+        /* flex-wrap: wrap; */
+    }
+        footer {
+            padding-top: 0px;
+        }
+}
+@media screen and (min-width:767px) and (max-width:1100px)
+{
+    .study-items-father {
+            display: flex;
+            flex-direction: row;
+            gap: 32px;
+            padding-bottom: 32px;
+            justify-content: center;
+            align-items: center;
+            /* flex-wrap: wrap; */
+        }
+        footer {
+            padding-top: 0px;
+        }
+}
+
+/* @media screen and (min-width:401px) and (max-width:766px) */
