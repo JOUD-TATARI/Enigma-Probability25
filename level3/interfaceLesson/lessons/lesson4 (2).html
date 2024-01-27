@@ -1,0 +1,616 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson3</title>
+    <link rel="stylesheet" href="../../../../header.css">
+    <!-- <link rel="stylesheet" href="../../../Determine the level/content-exam/level1/examlevel1.css"> -->
+    <link rel="stylesheet" href="../lesson.css">
+    <!-- <link rel="stylesheet" href="../../../Determine the level/content-exam/level1/examlevelactivity.css"> -->
+    <link rel="stylesheet" href="../../../../css/font-awesome.min.css">
+
+    <script async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <style>
+        .ex {
+            color: #F00;
+            text-align: right;
+            font-family: Cairo;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        .math-identifier,
+        math mi,
+        math mo,
+        math mrow,
+        math mfrac,
+        math msup,
+        math mtable,
+        math mtr,
+        math mtd,
+        math mn,
+        math mspace {
+            /* الأنماط المطلوبة هنا */
+            color: #1A1A1A;
+            font-family: "Times New Roman", Times, serif;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 0.96px;
+            display: block;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!--Start Navigation bar-->
+    <header>
+        <div class="container">
+            <div class="header">
+                <div class="header-lists">
+                    <ul>
+                        <li><a class="about-us" href="#"> من نحن </a></li>
+                        <li class="may"><a href="#"> ميّزات</a></li>
+                        <li class="levels dropdown-levels">
+                            <a href="#">مستويات </a>
+                            <ul class=" dropdown-menu dropdown-menu-levels ">
+                                <div class="dropdown-menu-levels-content">
+                                    <a class="level1" href="../../../level-1/interfaceLevelItem/AllLesson.html">المستوى
+                                        الأول</a>
+                                    <div class="dropdown-menu-levels-content-display">
+                                        <a class="level2" href="../../../level-2/interfaceLevelItem/AllLesson.html">المستوى
+                                            الثاني</a> <i class="fa fa-lock fa-lg"></i>
+                                    </div>
+                                    <!--dropdown-menu-levels-content-display-->
+                                    <div class="dropdown-menu-levels-content-display">
+                                        <a class="level3" href="../../interfaceLevelItem/AllLesson.html">المستوى
+                                            الثالث </a> <i class="fa fa-lock fa-lg"></i>
+                                    </div>
+                                    <!--dropdown-menu-levels-content-display-->
+                                </div> <!--dropdown-menu-levels-content-->
+                            </ul>
+                        </li>
+                    </ul>
+                </div> <!--header-lists-->
+                <div class="header-logo">
+                    <a href="../../../../main.html"> <img src="../../../../assistes/images/home/logo Place.svg"
+                            alt="LOGO"></a>
+                </div> <!--header-logo-->
+            </div> <!--header-->
+        </div> <!--container-->
+    </header>
+    <!--End Navigation bar-->
+
+    <!--Stat Content-->
+    <div class="home">
+        <div class="side-left">
+
+            <!--Start Header-->
+            <header class="side-left-head">
+                <h1>التوزيع المنتظم</h1>
+            </header> <!--side-left-head-->
+            <!--End Header-->
+
+            <div class="side-left-content">
+                <div class="container-side-left ">
+
+                    <h3 class="sub1-address">أمثلة وخواص:</h3>
+                    <p class="sub1-p">
+                        يعتبر من أبسط التوزيعات المستمرة حيث الاحتمال فيه منتظم (متساوِ) على مجال مغلق نسميه <span
+                            class="math-identifier Margin-Bottom" style="display: inline;">[a,b]</span> حيث
+                        <span class="math-identifier Margin-Bottom" style="display: inline;">
+                            <mi>a</mi>
+                            <mo>&#x226A;<!-- ≪ --></mo>
+                            <mi>b</mi>
+                        </span> <!--equation-->
+                        <br>
+                        نقول عن x متغير عشوائي يخضع للتوزيع المنتظم إذا كان:
+                        <span class="math-identifier Margin-Bottom">
+                            x~∪[a,b]
+                        </span>
+                    </p>
+                    <div class="math-identifier Margin-Bottom">
+                        <math>
+                            <mstyle>
+                                <mrow>
+                                    <mi>f</mi>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>x</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>=</mo>
+                                    <mrow>
+                                        <mo>{</mo>
+                                        <mtable rowspacing="4pt" columnspacing="1em">
+                                            <mtr>
+                                                <mtd>
+                                                    <mfrac>
+                                                        <mn>1</mn>
+                                                        <mrow>
+                                                            <mi>b</mi>
+                                                            <mo>&#x2212;<!-- − --></mo>
+                                                            <mi>a</mi>
+                                                        </mrow>
+                                                    </mfrac>
+                                                    <mspace width="thickmathspace" />
+                                                    <mspace width="thickmathspace" />
+                                                    <mo>;</mo>
+                                                    <mi>a</mi>
+                                                    <mo>&#x2264;</mo>
+                                                    <mi>x</mi>
+                                                    <mo>&#x2264;</mo>
+                                                    <mi>b</mi>
+                                                </mtd>
+                                                <mtd />
+                                            </mtr>
+                                            <mtr>
+                                                <mtd>
+                                                    <mn>0</mn>
+                                                    <mspace width="thickmathspace" />
+                                                    <mspace width="thickmathspace" />
+                                                    <mo>;</mo>
+                                                    <mi>O</mi>
+                                                    <mi>t</mi>
+                                                    <mi>h</mi>
+                                                    <mi>e</mi>
+                                                    <mi>r</mi>
+                                                    <mi>w</mi>
+                                                    <mi>i</mi>
+                                                    <mi>s</mi>
+                                                    <mi>e</mi>
+                                                </mtd>
+                                                <mtd />
+                                            </mtr>
+                                        </mtable>
+                                        <mo fence="true" stretchy="true" symmetric="true"></mo>
+                                    </mrow>
+                                </mrow>
+                            </mstyle>
+                        </math>
+                    </div> <!--equation-->
+
+                    <h3 class="sub1-address sub1-sub-address Margin-Bottom">خواص التوزيع المنتظم:</h3>
+                    <div class="math-identifier Margin-Bottom">
+                        <math>
+                            <mstyle>
+                                <mrow>
+                                    <mi>E</mi>
+                                    <mrow>
+                                        <mo>(</mo>
+                                        <mi>x</mi>
+                                        <mo>)</mo>
+                                    </mrow>
+                                    <mo>=</mo>
+                                    <mfrac>
+                                        <mrow>
+                                            <mi>a</mi>
+                                            <mo>+</mo>
+                                            <mi>b</mi>
+                                        </mrow>
+                                        <mn>2</mn>
+                                    </mfrac>
+                                    <mo>,</mo>
+                                    <mspace width="thickmathspace" />
+                                    <mi>V</mi>
+                                    <mrow>
+                                        <mo>(</mo>
+                                        <mi>x</mi>
+                                        <mo>)</mo>
+                                    </mrow>
+                                    <mo>=</mo>
+                                    <mfrac>
+                                        <mrow>
+                                            <mo stretchy="false">(</mo>
+                                            <mi>b</mi>
+                                            <mo>&#x2212;<!-- − --></mo>
+                                            <mi>a</mi>
+                                            <msup>
+                                                <mo stretchy="false">)</mo>
+                                                <mrow class="MJX-TeXAtom-ORD">
+                                                    <mn>2</mn>
+                                                </mrow>
+                                            </msup>
+                                        </mrow>
+                                        <mn>1</mn>
+                                    </mfrac>
+                                </mrow>
+                            </mstyle>
+                        </math>
+                    </div> <!--equation-->
+                    <p class="sub1-p">
+                        يأخذ تابع الكثافة الاحتمالي شكل مستطيل قاعدته b-a وارتفاعه ثابت (b-a)/1 مساحة هذا المستطيل تساوي
+                        الواحد
+                    </p>
+                    <div style="text-align: center;">
+                        <svg width="350" height="259" viewBox="0 0 350 259" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M106.707 0.292893C106.317 -0.0976311 105.683 -0.0976311 105.293 0.292893L98.9289 6.65685C98.5384 7.04738 98.5384 7.68054 98.9289 8.07107C99.3194 8.46159 99.9526 8.46159 100.343 8.07107L106 2.41421L111.657 8.07107C112.047 8.46159 112.681 8.46159 113.071 8.07107C113.462 7.68054 113.462 7.04738 113.071 6.65685L106.707 0.292893ZM107 245L107 1L105 1L105 245L107 245Z"
+                                fill="#000DFF" />
+                            <path
+                                d="M349.707 245.707C350.098 245.317 350.098 244.683 349.707 244.293L343.343 237.929C342.953 237.538 342.319 237.538 341.929 237.929C341.538 238.319 341.538 238.953 341.929 239.343L347.586 245L341.929 250.657C341.538 251.047 341.538 251.681 341.929 252.071C342.319 252.462 342.953 252.462 343.343 252.071L349.707 245.707ZM105 246L349 246V244L105 244V246Z"
+                                fill="#000DFF" />
+                            <line x1="150" y1="131" x2="150" y2="245" stroke="#000DFF" stroke-width="2" />
+                            <line x1="149" y1="130" x2="274" y2="130" stroke="#000DFF" stroke-width="2" />
+                            <line x1="274" y1="131" x2="274" y2="245" stroke="#000DFF" stroke-width="2" />
+                            <path
+                                d="M132.987 239.308C131.661 239.308 130.653 238.935 129.963 238.188C129.272 237.441 128.927 236.368 128.927 234.968C128.927 233.587 129.281 232.579 129.991 231.944C130.7 231.291 131.829 230.889 133.379 230.74L137.355 230.376V229.284C137.355 228.463 137.177 227.875 136.823 227.52C136.468 227.147 135.945 226.96 135.255 226.96C133.687 226.96 131.876 227.072 129.823 227.296L129.739 225.392C131.717 224.925 133.556 224.692 135.255 224.692C136.897 224.692 138.092 225.065 138.839 225.812C139.585 226.54 139.959 227.697 139.959 229.284V236.032C139.996 236.405 140.117 236.695 140.323 236.9C140.547 237.087 140.892 237.217 141.359 237.292L141.275 239.308C140.472 239.308 139.791 239.215 139.231 239.028C138.671 238.86 138.176 238.589 137.747 238.216C136.16 238.944 134.573 239.308 132.987 239.308ZM133.463 237.124C134.601 237.124 135.703 236.947 136.767 236.592L137.355 236.396V232.28L133.715 232.616C132.987 232.691 132.445 232.915 132.091 233.288C131.755 233.643 131.587 234.175 131.587 234.884C131.587 236.377 132.212 237.124 133.463 237.124Z"
+                                fill="black" />
+                            <path
+                                d="M9.34663 125.544L4.81063 128.484L3.60663 126.496L9.54263 122.52H12.0346V141H9.34663V125.544ZM17.4546 140.748L25.4066 121.092L27.7026 121.932L19.7506 141.56L17.4546 140.748ZM32.9025 144.5C31.9505 142.577 31.2038 140.571 30.6625 138.48C30.1398 136.389 29.8785 134.411 29.8785 132.544C29.8785 128.755 30.8865 124.573 32.9025 120H35.3945C34.7225 121.755 34.1065 123.892 33.5465 126.412C33.0052 128.932 32.7345 131.023 32.7345 132.684C32.7345 134.289 32.9678 136.109 33.4345 138.144C33.9198 140.179 34.5732 142.297 35.3945 144.5H32.9025ZM43.2155 141.28C41.9461 141.28 40.5928 141.205 39.1555 141.056L38.2875 140.972V121.064H40.8915V127.616C41.6008 127.299 42.2541 127.065 42.8515 126.916C43.4675 126.767 44.1301 126.692 44.8395 126.692C46.0715 126.692 47.0515 126.935 47.7795 127.42C48.5261 127.905 49.0675 128.68 49.4035 129.744C49.7581 130.789 49.9355 132.189 49.9355 133.944C49.9355 135.829 49.7208 137.304 49.2915 138.368C48.8808 139.413 48.1901 140.16 47.2195 140.608C46.2675 141.056 44.9328 141.28 43.2155 141.28ZM43.2995 138.956C44.3635 138.956 45.1755 138.797 45.7355 138.48C46.3141 138.144 46.7155 137.621 46.9395 136.912C47.1635 136.184 47.2755 135.185 47.2755 133.916C47.2755 132.684 47.1728 131.723 46.9675 131.032C46.7808 130.323 46.4635 129.819 46.0155 129.52C45.5861 129.203 44.9888 129.044 44.2235 129.044C43.2901 129.044 42.1795 129.268 40.8915 129.716V138.816C42.1048 138.909 42.9075 138.956 43.2995 138.956ZM53.0498 132.18H61.4778V134.588H53.0498V132.18ZM68.1937 141.308C66.8683 141.308 65.8603 140.935 65.1697 140.188C64.479 139.441 64.1337 138.368 64.1337 136.968C64.1337 135.587 64.4883 134.579 65.1977 133.944C65.907 133.291 67.0363 132.889 68.5857 132.74L72.5617 132.376V131.284C72.5617 130.463 72.3843 129.875 72.0297 129.52C71.675 129.147 71.1523 128.96 70.4617 128.96C68.8937 128.96 67.083 129.072 65.0297 129.296L64.9457 127.392C66.9243 126.925 68.763 126.692 70.4617 126.692C72.1043 126.692 73.299 127.065 74.0457 127.812C74.7923 128.54 75.1657 129.697 75.1657 131.284V138.032C75.203 138.405 75.3243 138.695 75.5297 138.9C75.7537 139.087 76.099 139.217 76.5657 139.292L76.4817 141.308C75.679 141.308 74.9977 141.215 74.4377 141.028C73.8777 140.86 73.383 140.589 72.9537 140.216C71.367 140.944 69.7803 141.308 68.1937 141.308ZM68.6697 139.124C69.8083 139.124 70.9097 138.947 71.9737 138.592L72.5617 138.396V134.28L68.9217 134.616C68.1937 134.691 67.6523 134.915 67.2977 135.288C66.9617 135.643 66.7937 136.175 66.7937 136.884C66.7937 138.377 67.419 139.124 68.6697 139.124ZM78.159 144.5C79.0364 142.111 79.6897 139.955 80.119 138.032C80.567 136.109 80.791 134.336 80.791 132.712C80.791 130.901 80.5204 128.783 79.979 126.356C79.4377 123.929 78.831 121.811 78.159 120H80.651C82.667 124.648 83.675 128.829 83.675 132.544C83.675 134.392 83.4044 136.361 82.863 138.452C82.3217 140.543 81.5844 142.559 80.651 144.5H78.159Z"
+                                fill="black" />
+                            <path
+                                d="M286.958 239.28C285.688 239.28 284.335 239.205 282.898 239.056L282.03 238.972V219.064H284.634V225.616C285.343 225.299 285.996 225.065 286.594 224.916C287.21 224.767 287.872 224.692 288.582 224.692C289.814 224.692 290.794 224.935 291.522 225.42C292.268 225.905 292.81 226.68 293.146 227.744C293.5 228.789 293.678 230.189 293.678 231.944C293.678 233.829 293.463 235.304 293.034 236.368C292.623 237.413 291.932 238.16 290.962 238.608C290.01 239.056 288.675 239.28 286.958 239.28ZM287.042 236.956C288.106 236.956 288.918 236.797 289.478 236.48C290.056 236.144 290.458 235.621 290.682 234.912C290.906 234.184 291.018 233.185 291.018 231.916C291.018 230.684 290.915 229.723 290.71 229.032C290.523 228.323 290.206 227.819 289.758 227.52C289.328 227.203 288.731 227.044 287.966 227.044C287.032 227.044 285.922 227.268 284.634 227.716V236.816C285.847 236.909 286.65 236.956 287.042 236.956Z"
+                                fill="black" />
+                        </svg>
+
+                    </div> <!--Chart-->
+
+                    <div class="ex-surprise">
+                        <div class="question question1">
+                            <div class="ex-1-content">
+                                <div class="side-left-Question-text ">
+                                    <div class="Question-text-item1">
+                                        <h3>اختبار مفاجئ </h3>
+                                        <p>
+                                            بفرض أن طول فترة حجز صالة مؤتمرات مقدرا بالساعات يخضع للتوزيع المنتظم على
+                                            المجال [0,4] والمطلوب: </p>
+                                        <div class="Question-text-item1-flex">
+                                            <span class="num"> 1]-</span>
+                                            <p>
+                                                 أوجد تابع الكثافة الاحتمالي
+                                            </p>
+                                        </div> <!--Question-text-item1-flex-->
+
+                                        <div class="side-left-choose">
+                                            <div class="choose-item">
+                                                <!-- <span class="num">1]-</span> -->
+                                                <div class="choose-item-content father1">
+                                                    <div class="choose-item-content-circle">
+                                                        <input type="radio" name="question1" id="correct1">
+                                                    </div>
+                                                    <!--choose-item-content-circle-->
+                                                    <div class="math-identifier Margin-Bottom">
+                                                        <math>
+                                                            <mstyle>
+                                                                <mrow>
+                                                                    <mi>f</mi>
+                                                                    <mrow>
+                                                                        <mo>(</mo>
+                                                                        <mi>x</mi>
+                                                                        <mo>)</mo>
+                                                                    </mrow>
+                                                                    <mo>=</mo>
+                                                                    <mrow>
+                                                                        <mo>{</mo>
+                                                                        <mtable rowspacing="4pt" columnspacing="1em">
+                                                                            <mtr>
+                                                                                <mtd>
+                                                                                    <mfrac>
+                                                                                        <mn>1</mn>
+                                                                                        <mn>4</mn>
+                                                                                    </mfrac>
+                                                                                    <mspace width="thickmathspace" />
+                                                                                    <mspace width="thickmathspace" />
+                                                                                    <mo>;</mo>
+                                                                                    <mn>0</mn>
+                                                                                    <mo>&#x2A7D;<!-- ⩽ --></mo>
+                                                                                    <mi>x</mi>
+                                                                                    <mo>&#x2A7D;<!-- ⩽ --></mo>
+                                                                                    <mn>4</mn>
+                                                                                </mtd>
+                                                                                <mtd />
+                                                                            </mtr>
+                                                                            <mtr>
+                                                                                <mtd>
+                                                                                    <mn>0</mn>
+                                                                                    <mspace width="thickmathspace" />
+                                                                                    <mspace width="thickmathspace" />
+                                                                                    <mspace width="thickmathspace" />
+                                                                                    <mo>;</mo>
+                                                                                    <mi>O</mi>
+                                                                                    <mi>t</mi>
+                                                                                    <mi>h</mi>
+                                                                                    <mi>e</mi>
+                                                                                    <mi>r</mi>
+                                                                                    <mi>e</mi>
+                                                                                    <mi>i</mi>
+                                                                                    <mi>s</mi>
+                                                                                    <mi>e</mi>
+                                                                                </mtd>
+                                                                                <mtd />
+                                                                            </mtr>
+                                                                        </mtable>
+                                                                        <mo fence="true" stretchy="true" symmetric="true"></mo>
+                                                                    </mrow>
+                                                                </mrow>
+                                                            </mstyle>
+                                                        </math>
+                                                    </div> <!--equation-->
+                                                </div> <!--choose-item-content-->
+                                            
+                                                <div class="choose-item-content not-father1">
+                                                    <div class="choose-item-content-circle">
+                                                        <input type="radio" name="question1">
+                                                    </div>
+                                                    <!--choose-item-content-circle-->
+                                                    <div class="math-identifier Margin-Bottom">
+                                                        <math>
+                                                            <mstyle>
+                                                                <mrow>
+                                                                    <mi>f</mi>
+                                                                    <mrow>
+                                                                        <mo>(</mo>
+                                                                        <mi>x</mi>
+                                                                        <mo>)</mo>
+                                                                    </mrow>
+                                                                    <mo>=</mo>
+                                                                    <mrow>
+                                                                        <mo>{</mo>
+                                                                        <mtable rowspacing="4pt" columnspacing="1em">
+                                                                            <mtr>
+                                                                                <mtd>
+                                                                                    <mfrac>
+                                                                                        <mn>1</mn>
+                                                                                        <mn>4x</mn>
+                                                                                    </mfrac>
+                                                                                    <mspace width="thickmathspace" />
+                                                                                    <mspace width="thickmathspace" />
+                                                                                    <mo>;</mo>
+                                                                                    <mn>0</mn>
+                                                                                    <mo>&#x2A7D;<!-- ⩽ --></mo>
+                                                                                    <mi>x</mi>
+                                                                                    <mo>&#x2A7D;<!-- ⩽ --></mo>
+                                                                                    <mn>4</mn>
+                                                                                </mtd>
+                                                                                <mtd />
+                                                                            </mtr>
+                                                                            <mtr>
+                                                                                <mtd>
+                                                                                    <mn>0</mn>
+                                                                                    <mspace width="thickmathspace" />
+                                                                                    <mspace width="thickmathspace" />
+                                                                                    <mspace width="thickmathspace" />
+                                                                                    <mo>;</mo>
+                                                                                    <mi>O</mi>
+                                                                                    <mi>t</mi>
+                                                                                    <mi>h</mi>
+                                                                                    <mi>e</mi>
+                                                                                    <mi>r</mi>
+                                                                                    <mi>e</mi>
+                                                                                    <mi>i</mi>
+                                                                                    <mi>s</mi>
+                                                                                    <mi>e</mi>
+                                                                                </mtd>
+                                                                                <mtd />
+                                                                            </mtr>
+                                                                        </mtable>
+                                                                        <mo fence="true" stretchy="true" symmetric="true"></mo>
+                                                                    </mrow>
+                                                                </mrow>
+                                                            </mstyle>
+                                                        </math>
+                                                    </div> <!--equation-->
+                                                </div> <!--choose-item-content-->
+                                            
+                                                <div class="choose-item-content not-father2">
+                                                    <div class="choose-item-content-circle">
+                                                        <input type="radio" name="question1">
+                                                    </div>
+                                                    <!--choose-item-content-circle-->
+                                                    <div class="math-identifier Margin-Bottom">
+                                                        <math>
+                                                            <mstyle>
+                                                                <mrow>
+                                                                    <mi>f</mi>
+                                                                    <mrow>
+                                                                        <mo>(</mo>
+                                                                        <mi>x</mi>
+                                                                        <mo>)</mo>
+                                                                    </mrow>
+                                                                    <mo>=</mo>
+                                                                    <mrow>
+                                                                        <mo>{</mo>
+                                                                        <mtable rowspacing="4pt" columnspacing="1em">
+                                                                            <mtr>
+                                                                                <mtd>
+                                                                                    <mfrac>
+                                                                                        <mn>1</mn>
+                                                                                        <mn>4+x</mn>
+                                                                                    </mfrac>
+                                                                                    <mspace width="thickmathspace" />
+                                                                                    <mspace width="thickmathspace" />
+                                                                                    <mo>;</mo>
+                                                                                    <mn>0</mn>
+                                                                                    <mo>&#x2A7D;<!-- ⩽ --></mo>
+                                                                                    <mi>x</mi>
+                                                                                    <mo>&#x2A7D;<!-- ⩽ --></mo>
+                                                                                    <mn>4</mn>
+                                                                                </mtd>
+                                                                                <mtd />
+                                                                            </mtr>
+                                                                            <mtr>
+                                                                                <mtd>
+                                                                                    <mn>0</mn>
+                                                                                    <mspace width="thickmathspace" />
+                                                                                    <mspace width="thickmathspace" />
+                                                                                    <mspace width="thickmathspace" />
+                                                                                    <mo>;</mo>
+                                                                                    <mi>O</mi>
+                                                                                    <mi>t</mi>
+                                                                                    <mi>h</mi>
+                                                                                    <mi>e</mi>
+                                                                                    <mi>r</mi>
+                                                                                    <mi>e</mi>
+                                                                                    <mi>i</mi>
+                                                                                    <mi>s</mi>
+                                                                                    <mi>e</mi>
+                                                                                </mtd>
+                                                                                <mtd />
+                                                                            </mtr>
+                                                                        </mtable>
+                                                                        <mo fence="true" stretchy="true" symmetric="true"></mo>
+                                                                    </mrow>
+                                                                </mrow>
+                                                            </mstyle>
+                                                        </math>
+                                                    </div> <!--equation-->
+                                                </div> <!--choose-item-content-->
+                                            
+                                                <div class="choose-item-content not-father3">
+                                                    <div class="choose-item-content-circle">
+                                                        <input type="radio" name="question1">
+                                                    </div>
+                                                    <!--choose-item-content-circle-->
+                                                    <div class="math-identifier Margin-Bottom">
+                                                        <math>
+                                                            <mstyle>
+                                                                <mrow>
+                                                                    <mi>f</mi>
+                                                                    <mrow>
+                                                                        <mo>(</mo>
+                                                                        <mi>x</mi>
+                                                                        <mo>)</mo>
+                                                                    </mrow>
+                                                                    <mo>=</mo>
+                                                                    <mrow>
+                                                                        <mo>{</mo>
+                                                                        <mtable rowspacing="4pt" columnspacing="1em">
+                                                                            <mtr>
+                                                                                <mtd>
+                                                                                    <mfrac>
+                                                                                        <mn>1</mn>
+                                                                                        <mn>x-4</mn>
+                                                                                    </mfrac>
+                                                                                    <mspace width="thickmathspace" />
+                                                                                    <mspace width="thickmathspace" />
+                                                                                    <mo>;</mo>
+                                                                                    <mn>0</mn>
+                                                                                    <mo>&#x2A7D;<!-- ⩽ --></mo>
+                                                                                    <mi>x</mi>
+                                                                                    <mo>&#x2A7D;<!-- ⩽ --></mo>
+                                                                                    <mn>4</mn>
+                                                                                </mtd>
+                                                                                <mtd />
+                                                                            </mtr>
+                                                                            <mtr>
+                                                                                <mtd>
+                                                                                    <mn>0</mn>
+                                                                                    <mspace width="thickmathspace" />
+                                                                                    <mspace width="thickmathspace" />
+                                                                                    <mspace width="thickmathspace" />
+                                                                                    <mo>;</mo>
+                                                                                    <mi>O</mi>
+                                                                                    <mi>t</mi>
+                                                                                    <mi>h</mi>
+                                                                                    <mi>e</mi>
+                                                                                    <mi>r</mi>
+                                                                                    <mi>e</mi>
+                                                                                    <mi>i</mi>
+                                                                                    <mi>s</mi>
+                                                                                    <mi>e</mi>
+                                                                                </mtd>
+                                                                                <mtd />
+                                                                            </mtr>
+                                                                        </mtable>
+                                                                        <mo fence="true" stretchy="true" symmetric="true"></mo>
+                                                                    </mrow>
+                                                                </mrow>
+                                                            </mstyle>
+                                                        </math>
+                                                    </div> <!--equation-->
+                                                </div> <!--choose-item-content-->
+                                            </div> <!--choose-item-->
+                                        </div>
+
+                                        <div class="Question-text-item1-flex">
+                                            <span class="num"> 2]-</span>
+                                            <p>
+                                                ما هو احتمال أن يدوم مؤتمر ما ثلاث ساعات على الأقل
+                                            </p>
+                                        </div> <!--Question-text-item1-flex-->
+
+
+
+                                    </div> <!--Question-text-item1-->
+                                </div> <!--side-left-Question-text-->
+
+                                <div class="side-left-choose">
+                                    
+
+                                    <div class="choose-item">
+                                        <!-- <span class="num">2]-</span> -->
+                                        <div class="choose-item-content father2">
+                                            <div class="choose-item-content-circle">
+                                                <input type="radio" name="question2" id="correct2">
+                                            </div>
+                                            <!--choose-item-content-circle-->
+                                            <div class="math-identifier Margin-Bottom">
+                                                p(x ≥ 3) = 1/4
+                                            </div> <!--equation-->
+                                        </div> <!--choose-item-content-->
+
+                                        <div class="choose-item-content not-father4">
+                                            <div class="choose-item-content-circle">
+                                                <input type="radio" name="question2">
+                                            </div>
+                                            <!--choose-item-content-circle-->
+                                            <div class="math-identifier Margin-Bottom">
+                                                p(x ≥ 3) = 3/4
+                                            </div> <!--equation-->
+                                        </div> <!--choose-item-content-->
+
+                                        <div class="choose-item-content not-father5">
+                                            <div class="choose-item-content-circle">
+                                                <input type="radio" name="question2">
+                                            </div>
+                                            <!--choose-item-content-circle-->
+                                            <div class="math-identifier Margin-Bottom">
+                                                p(x ≥ 3) = 1/2
+                                            </div> <!--equation-->
+                                        </div> <!--choose-item-content-->
+
+                                        <div class="choose-item-content not-father6">
+                                            <div class="choose-item-content-circle">
+                                                <input type="radio" name="question2">
+                                            </div>
+                                            <!--choose-item-content-circle-->
+                                            <div class="math-identifier Margin-Bottom">
+                                                p(x ≥ 3) = 2/3
+                                            </div> <!--equation-->
+                                        </div> <!--choose-item-content-->
+                                    </div> <!--choose-item-->
+
+
+                                </div> <!--side-left-choose-->
+
+                            </div> <!--ex-1-content-->
+                        </div> <!--question1-->
+                        <div class="ex-1-content">
+                            <button class="confirm">تحقق من إجاباتك
+                            </button>
+                        </div> <!--ex-1-content-->
+                    </div> <!--ex-surprise-->
+
+                    <div class="buttons-under-examples">
+                        <button class=" next-lesson before-lesson"><a href="#">الدرس السابق </a></button>
+                    
+                        <button class="next-lesson after-lesson"><a href="#">تدرب الآن </a></button>
+                    </div> <!--buttons-under-examples-->
+
+
+                </div> <!--container-side-left-->
+            </div> <!--side-left-content-->
+        </div> <!--side-left-->
+    </div> <!--home-->
+    <!--End Content-->
+</body>
+
+</html>

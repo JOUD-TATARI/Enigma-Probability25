@@ -1,0 +1,706 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap');
+
+body {
+    letter-spacing: -0.36px;
+    font-family: Cairo;
+}
+
+.container-side-left {
+    padding-left: 49px;
+    padding-right: 48px;
+}
+
+.Margin-Bottom {
+    padding-bottom: 16px;
+}
+
+.Margin-Bottom2 {
+    padding-bottom: 64.31px;
+}
+
+.side-left-Question-text p,
+.ex-1 p {
+    text-align: right;
+    color: #4F4B45;
+    font-family: Cairo;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 44px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+td {
+    border: 2px solid #000DFF;
+    text-align: left;
+    padding: 16px;
+}
+
+/* ----------------------------------------- */
+
+.side-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.side-left-head {
+    background-color: #407BFF;
+    height: 162px;
+    padding-right: 34px;
+    width: 100%;
+}
+
+.side-left-head h1 {
+    padding-top: 44px;
+    /* padding-bottom: 71px; */
+    color: #FFF;
+    font-family: Cairo;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.side-left-head p {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 800;
+    padding-bottom: 20px;
+    padding-top: 16px;
+}
+
+.side-left-content {
+    background-color: #EDF1FC;
+    letter-spacing: -0.36px;
+}
+
+.side-left-content h2 {
+    padding-top: 14px;
+    color: #60F;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.sub1-address {
+    color: #F00;
+    font-family: Cairo;
+    font-size: 34px;
+    font-weight: 800;
+}
+
+.side-left-content .sub1-p {
+    color: #1A1A1A;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.home-img-ex-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 150px;
+}
+
+.home-img {
+    /* display: flex; */
+    /* justify-content: center; */
+    transition: all 0.5s;
+    /* width: 100%; */
+
+}
+
+.home-img img {
+    width: 100%;
+}
+
+.home-img:hover {
+    transform: scale(1.1);
+}
+
+.sub1-sub-address {
+    color: #0070C0;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.sub1-sub-sub-address {
+    color: #0095FF;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.Div-sub1-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.example-item {
+    color: #F00;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.reg-button {
+    width: 100%;
+    height: 290px;
+    background-color: #fff;
+    border-radius: 18px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.reg-button-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Cairo;
+    padding-top: 24px;
+    padding-left: 23px;
+    padding-right: 17px;
+
+}
+
+.reg-button-head h3 {
+    color: #00C;
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 4px;
+}
+
+.reg-button-head-img {
+    padding-left: 24px;
+    transition: all 0.5s;
+}
+
+.reg-button-head-img:hover {
+    transform: scale(1.2);
+
+}
+
+.reg-button-under-head {
+    display: flex;
+    justify-content: flex-start;
+    font-family: Cairo;
+    color: #4F4B45;
+    font-size: 18px;
+    font-weight: 500;
+    padding-right: 16px;
+    padding-bottom: 26px;
+}
+
+.reg-button-background {
+    width: 930px;
+    height: 132px;
+    border-radius: 18px;
+    background: #9DCCFF;
+    margin-right: 24px;
+    color: #4F4B45;
+    font-family: Cairo;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: start;
+    padding: 15px;
+    margin-bottom: 24px;
+}
+
+.Duplicates {
+    color: #0070C0;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.Duplicates-p-item {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    color: #4F4B45;
+    font-family: Cairo;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* span {
+    color: #F90;
+    font-size:18px ;
+ } */
+span .Duplicates-p-item-a,
+.Duplicates-p-item-b {
+    padding-right: 20px;
+}
+
+.Duplicates-p-item-father {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Flex-inCenter {
+    display: flex;
+    gap: 2px;
+    /* justify-content: right; */
+}
+
+/* ------------------------------------- */
+
+.ex-1,
+.ex-surprise {
+    border-radius: 18px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    border: 1px solid white;
+}
+
+.ex-1 {
+    position: relative;
+}
+
+.side-left-Question-text p {
+    color: #1A1A1A;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 44px;
+}
+
+.ex-1 h3 {
+    color: #F00;
+}
+
+.ex-1-content {
+    color: #4F4B45;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 16px 16.5px 15px 16.5px;
+}
+
+.ex-1-content table {
+    margin-top: 16px;
+}
+
+.Display {
+    display: none;
+}
+
+/* -------------------------------- */
+
+.main-The-Solve {
+    display: none;
+}
+
+.The-Solve h3 {
+    color: #0AD172;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.between span {
+    display: block;
+    width: 95%;
+    height: 2px;
+    background-color: rgba(129, 129, 129, 0.40);
+    margin-right: 22px;
+
+}
+
+.Center {
+    text-align: center;
+}
+
+.declear {
+    color: #0AD172;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-bottom: 16px;
+}
+
+.display-solve {
+    width: 110px;
+    height: 42px;
+    background-color: #000DFF;
+    border-radius: 40px;
+    color: #FFF;
+    font-family: Cairo;
+    font-size: 18.236px;
+    font-weight: 500;
+    line-height: 42px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all 0.5s;
+    margin-bottom: 24px;
+    margin-top: 32px;
+    /* margin-right: 90%; */
+    font-family: 'Cairo', sans-serif;
+}
+
+.display-solve-js {
+
+    margin-right: 90%;
+    display: none;
+
+}
+
+.display-solve:hover {
+    opacity: 1;
+}
+
+.show {
+    padding-right: 15px;
+}
+
+/* ----------------------------------------- */
+.buttons-under-lines {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding-bottom: 16px;
+}
+
+.buttons-under-lines span {
+    display: block;
+    width: 32.7px;
+    height: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+.active-now {
+    background: #2196F3;
+}
+
+.no-active {
+    background-color: #C7D3EB;
+}
+
+/* ------------------------------------ */
+.buttons-under-examples {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 71px;
+    margin-bottom: 55px;
+}
+
+.next-lesson {
+    width: 120px;
+    height: 42px;
+    background-color: #000DFF;
+    border-radius: 40px;
+    border: 1px solid #000DFF;
+    opacity: 0.8;
+    transition: all .5s;
+}
+
+.next-lesson a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Cairo;
+    font-size: 18.236px;
+    font-weight: 500;
+}
+
+.next-lesson:hover {
+    opacity: 1;
+}
+
+/* --------------------------------------------------------------- */
+.side-left-Question-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding-top: 14px; */
+}
+
+.Question-text-item1 h3 {
+    color: #F00;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 60px
+}
+
+.Question-text-item1-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.num {
+    display: block;
+    color: #F90;
+    font-family: Cairo;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+
+
+/* ----------------------------------------------------------- */
+.side-left-choose {
+    margin-top: 40px;
+}
+
+.choose-item {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.choose-item-content {
+    height: 48px;
+    /* width: 100%; */
+    background-color: #fff;
+    border-radius: 16px;
+    border: 1px solid #000DFF;
+    display: flex;
+    /* justify-content: flex-end; */
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+    position: relative;
+}
+
+.choose-item-content p {
+    color: #1A1A1A;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 24px;
+    font-weight: 800;
+    width: 276px;
+}
+
+.choose-item-content-circle input {
+    /* padding-top: 25px; */
+    cursor: pointer;
+}
+
+.choose-item-tables {
+    display: flex;
+    align-items: baseline;
+}
+
+.choose-item-table-father {
+    display: flex;
+    flex-direction: column;
+    /* gap: 270px; */
+}
+
+.choose-item-table1-father,
+.choose-item-table2-father {
+    display: flex;
+    gap: 570px;
+}
+
+.choose-item-table1-father:first-child,
+.choose-item-table2-father:first-child {
+    margin-bottom: 100px;
+    margin-top: 16px;
+}
+
+.this-table {
+    width: 0px;
+    height: 0px;
+    border: 0px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.display-solve,
+.display-solve-js {
+    position: absolute;
+    left: 5%;
+    bottom: -2%;
+}
+
+.display-solve-js {
+    bottom: 0%;
+}
+
+@media screen and (min-width:401px) and (max-width:768px) {
+    .ex-1 {
+
+        padding-bottom: 32px;
+    }
+
+    .container-side-left {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .choose-item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-img-ex-flex {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .home-img-ex-flex .equation {
+        text-align: center;
+    }
+
+    .Duplicates-p-item {
+        margin-bottom: 10px;
+    }
+
+    .side-left-head {
+        padding-right: 16px;
+    }
+
+    .choose-item-content {
+        width: 100%;
+    }
+
+    .choose-item-content p {
+        font-size: 18px;
+    }
+
+    .side-left-Question-text {
+        display: block;
+    }
+
+    .sub1-address {
+        font-size: 24px;
+    }
+
+    .side-left-content .sub1-p {
+        font-size: 18px;
+    }
+
+    .sub1-sub-address {
+        font-size: 24px;
+    }
+
+    .sub1-sub-sub-address {
+        font-size: 20px;
+    }
+
+    .side-left-Question-text p {
+        font-size: 18px;
+    }
+
+    .num {
+        font-size: 18px;
+    }
+
+
+    .ex-1 p {
+        font-size: 18px;
+    }
+
+    .math-identifier,
+    math mi,
+    math mo,
+    math mrow,
+    math mfrac,
+    math msup,
+    .equation
+    {
+        font-size: 18px;
+    }
+    .side-left-head h1 {
+            font-size: 34px;
+        }
+    .Flex-inCenter .sub1-p {
+        padding-top: 5px;
+    }
+
+    .choose-item-table1-father , .choose-item-table2-father
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    td
+    {
+        padding: 5px;
+        text-align: center;
+    }
+    .choose-item-table1-father:first-child
+    {
+        margin-bottom: 10px;
+    }
+}
+
+/* ------------------------------------ */
+
+.confirm {
+    width: 100%;
+    height: 42.1px;
+    border-radius: 40.524px;
+    background-color: #000DFF;
+    color: wheat;
+    font-family: Cairo;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid #000DFF;
+    opacity: 0.8;
+    transition: all 0.5s;
+    margin-bottom: 16px;
+}
+
+.confirm:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* .equation mrow {
+    color: #1A1A1A;
+    text-align: right;
+    font-family: Monda;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.96px;
+} */
+.math-identifier,
+math mi,
+math mo,
+math mrow,
+math mfrac,
+math msup,
+.equation {
+    color: #1A1A1A;
+    text-align: right;
+    font-family: "Times New Roman", Times, serif;
+    /* font-size: 24px; */
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.96px;
+    /* display: block; */
+    text-align: center;
+}
+
+.equation {
+    text-align: right;
+}

@@ -1,0 +1,619 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson3</title>
+    <link rel="stylesheet" href="../../../../header.css">
+    <!-- <link rel="stylesheet" href="../../../Determine the level/content-exam/level1/examlevel1.css"> -->
+    <link rel="stylesheet" href="lesson.css">
+    <link rel="stylesheet" href="lesson1.css">
+    <link rel="stylesheet" href="../../../../css/font-awesome.min.css">
+    
+    <!-- <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-MML-AM_CHTML"></script> -->
+</head>
+
+<body>
+    <!--Start Navigation bar-->
+    <header>
+        <div class="container">
+            <div class="header">
+                <div class="header-lists">
+                    <ul>
+                        <li><a class="about-us" href="#"> من نحن </a></li>
+                        <li class="may"><a href="#"> ميّزات</a></li>
+                        <li class="levels dropdown-levels">
+                            <a href="#">مستويات </a>
+                            <ul class=" dropdown-menu dropdown-menu-levels ">
+                                <div class="dropdown-menu-levels-content">
+                                    <div class="dropdown-menu-levels-content-display dropdown-menu-levels1-content-display ">
+                                        <a class="level1" href="../../../level-1/interfaceLevelItem/AllLesson.html">المستوى الأول</a> <i
+                                            class="fa fa-angle-left fa-lg"></i>
+                                    </div> <!--dropdown-menu-levels-content-display-->
+                                    <div class="dropdown-menu-levels-content-display">
+                                        <a class="level2" href="../../../level2/interfaceLevelItem/AllLesson.html">المستوى الثاني</a> <i class="fa fa-angle-left fa-lg"></i>
+                                    </div> <!--dropdown-menu-levels-content-display-->
+                                    <div class="dropdown-menu-levels-content-display">
+                                        <a class="level3" href="../../interfaceLevelItem/AllLesson.html">المستوى الثالث </a> <i class="fa fa-angle-left fa-lg"></i>
+                                    </div> <!--dropdown-menu-levels-content-display-->
+                                </div> <!--dropdown-menu-levels-content-->
+                            </ul>
+                        </li>
+                    </ul>
+                </div> <!--header-lists-->
+
+                <div class="header-bar">
+                
+                    <svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M11.62 0.5H28.38C35.66 0.5 40 4.84 40 12.12V28.86C40 36.16 35.66 40.5 28.38 40.5H11.64C4.36 40.5 0.0200005 36.16 0.0200005 28.88V12.12C4.58211e-07 4.84 4.34 0.5 11.62 0.5ZM10 31H30C30.82 31 31.5 30.32 31.5 29.5C31.5 28.68 30.82 28 30 28H10C9.18 28 8.5 28.68 8.5 29.5C8.5 30.32 9.18 31 10 31ZM19.5 22H30C30.82 22 31.5 21.32 31.5 20.5C31.5 19.68 30.82 19 30 19H19.5C18.68 19 18 19.68 18 20.5C18 21.32 18.68 22 19.5 22ZM10 13H30C30.82 13 31.5 12.32 31.5 11.5C31.5 10.68 30.82 10 30 10H10C9.18 10 8.5 10.68 8.5 11.5C8.5 12.32 9.18 13 10 13Z"
+                            fill="#FBFBFB" />
+                    </svg>
+                
+                </div>
+                <div class="header-logo">
+                    <a href="../../../../main.html"> <img src="../../../../assistes/images/home/logo Place.svg"
+                            alt="LOGO"></a>
+                </div> <!--header-logo-->
+            </div> <!--header-->
+        </div> <!--container-->
+    </header>
+    <!--End Navigation bar-->
+
+    <!--Stat Content-->
+
+    <div class="home">
+        <div class="side-left">
+
+            <!--Start Header-->
+            <header class="side-left-head">
+                <h1>تعريف بالتوزيعات الاحتمالية </h1>
+            </header> <!--side-left-head-->
+            <!--End Header-->
+
+            <div class="side-left-content">
+                <div class="container-side-left ">
+                    <h3 class="sub1-address Margin-Bottom">التجربة الثنائية وتوزيع بيرنولي وتوزيع الثنائي:</h3>
+                    <p class="sub1-p Margin-Bottom">
+                        <span class="ex">مثال:</span> <br>
+                        <span class="num">1]- </span> رمي قطعة نقود هناك نتيجتين هما إمّا ظهور الكتابة أو الشعار. <br>
+                        <span class="num">2]- </span> الرمي باتجاه هدف إمّا إصابة الهدف أو إخفاق الهدف <br>
+                        <span class="num">3]- </span> قد يكون الشخص مدخن أو غير مدخن <br>
+                        <span class="num">4]- </span> اخترنا قطعة عشوائية من مصنع معين قد تكون خالية من أي عيب أو تكون
+                        معيبة صناعية.
+                    </p>
+
+                    <h3 class="sub1-address sub1-sub-address Margin-Bottom">توزيع برنولي:</h3>
+                    <p class="sub1-p Margin-Bottom">
+                        بفرض x عشوائي يعبر عن ناتج تجربة بيرنولي وفق ما يلي x={0,1}
+                        يكون جدول التوزيع الاحتمالي بالشكل:
+                    </p>
+
+                    <table class="sub1-p Margin-Bottom">
+                        <tr>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>x</td>
+                        </tr>
+                        <tr>
+                            <td>P</td>
+                            <td>Q</td>
+                            <td>P(X=x)</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <div class="Margin-Bottom">
+                        <?xml version="1.0"?><math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                            <mstyle displaystyle="true" scriptlevel="0">
+                                <mrow class="MJX-TeXAtom-ORD">
+                                    <mi>p</mi>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>X</mi>
+                                    <mo>=</mo>
+                                    <mi>x</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>=</mo>
+                                    <msup>
+                                        <mi>p</mi>
+                                        <mrow class="MJX-TeXAtom-ORD">
+                                            <mi>x</mi>
+                                        </mrow>
+                                    </msup>
+                                    <mo>&#x00D7;<!-- × --></mo>
+                                    <msup>
+                                        <mi>q</mi>
+                                        <mrow class="MJX-TeXAtom-ORD">
+                                            <mn>1</mn>
+                                            <mo>&#x2212;<!-- − --></mo>
+                                            <mi>x</mi>
+                                        </mrow>
+                                    </msup>
+                                </mrow>
+                            </mstyle>
+                        </math>
+                    </div> <!--equation-->
+
+                    <h3 class="sub1-address sub1-sub-address Margin-Bottom">التوزيع الثنائي:</h3>
+                    <p class="sub1-p Margin-Bottom">
+                        يستخدم لإيجاد احتمال وقوع حدث معين احتمال نجاحه P عددا من المرات اي عند تكرار تجربة برنولي عددا
+                        من المرات مقداره n بشرط:
+                        <br>
+                        <span class="num">1]- </span>المحاولات مستقلة عن بعضها البعض. <br>
+                        <span class="num">2]- </span> النتيجتان متنافيتان لكل محاولة <br>
+                        <span class="num">3]- </span> احتمال وقوع حدث معين لكل محاولة ثابت ولا يتغير من محاولة الى
+                        اخرى. <br>
+                    </p>
+
+                    <p class="sub1-p Margin-Bottom">
+                        <span class="ex">مثال:</span> <br>
+                        x متغير عشوائي يدل على عدد مرات النجاح عند تكرار تجربة برنولي عدد من المرات مقداره n x={0,1,…,n}
+                        يتم التعبير قانون
+                        التوزيع الثنائي كما يلي: <br>
+                    </p>
+
+                    <div class="Margin-Bottom">
+                        <?xml version="1.0"?><math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                            <mstyle displaystyle="true" scriptlevel="0">
+                                <mrow class="MJX-TeXAtom-ORD">
+                                    <mi>x</mi>
+                                    <mo stretchy="false">~</mo>
+                                    <mi>Bin</mi>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>n</mi>
+                                    <mo>,</mo>
+                                    <mi>p</mi>
+                            </mstyle>
+                        </math>
+                    </div> <!--equation-->
+
+                    <div class="Margin-Bottom">
+                        <?xml version="1.0"?><math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                            <mstyle displaystyle="true" scriptlevel="0">
+                                <mrow class="MJX-TeXAtom-ORD">
+                                    <mi>p</mi>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>X</mi>
+                                    <mo>=</mo>
+                                    <mi>x</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>=</mo>
+                                    <mi>C</mi>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>n</mi>
+                                    <mo>,</mo>
+                                    <mi>x</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>&#x00D7;<!-- × --></mo>
+                                    <msup>
+                                        <mi>p</mi>
+                                        <mi>x</mi>
+                                    </msup>
+                                    <mo>&#x00D7;<!-- × --></mo>
+                                    <msup>
+                                        <mi>q</mi>
+                                        <mrow class="MJX-TeXAtom-ORD">
+                                            <mi>n</mi>
+                                            <mo>&#x2212;<!-- − --></mo>
+                                            <mi>x</mi>
+                                        </mrow>
+                                    </msup>
+                                </mrow>
+                            </mstyle>
+                        </math>
+                    </div> <!--equation-->
+
+                    <h4 class="sub1-sub-sub-address">خصائص التوزيع:</h4>
+                    <div class="Margin-Bottom">
+                        <?xml version="1.0"?><math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                            <mstyle displaystyle="true" scriptlevel="0">
+                                <mrow class="MJX-TeXAtom-ORD">
+                                    <mi>E</mi>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>x</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>=</mo>
+                                    <mi>n</mi>
+                                    <mo>&#x2217;<!-- ∗ --></mo>
+                                    <mi>p</mi>
+                                </mrow>
+                            </mstyle>
+                        </math>
+                    </div> <!--equation-->
+
+                    <div class="Margin-Bottom">
+                        <?xml version="1.0"?><math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                            <mstyle displaystyle="true" scriptlevel="0">
+                                <mrow class="MJX-TeXAtom-ORD">
+                                    <mi>V</mi>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>x</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>=</mo>
+                                    <mi>n</mi>
+                                    <mo>&#x00D7;<!-- × --></mo>
+                                    <mi>p</mi>
+                                    <mo>&#x00D7;<!-- × --></mo>
+                                    <mi>q</mi>
+                                    <mo>=</mo>
+                                    <mi>E</mi>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>x</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>&#x00D7;<!-- × --></mo>
+                                    <mi>q</mi>
+                                </mrow>
+                            </mstyle>
+                        </math>
+                    </div> <!--equation-->
+
+                    <div class="ex-surprise">
+                        <div class="question question1">
+                            <div class="ex-1-content">
+                                <div class="side-left-Question-text ">
+                                    <div class="Question-text-item1">
+                                        <h3>اختبار مفاجئ </h3>
+                                        <p>
+                                            لوحِظَ لفترة طويلة ان صيادا يصيد الهدف باحتمال 85% فإذا أطلق 5 طلقات على
+                                            الهدف
+                                        </p>
+                                        <div class="Question-text-item1-flex">
+                                            <span class="num"> 1]-</span>
+                                            <p>
+                                                ما هو التوزيع الذي تخضع له المسألة
+                                            </p>
+                                        </div> <!--Question-text-item1-flex-->
+
+                                        <div class="side-left-choose">
+                                            <div class="choose-item">
+                                                <!-- <span>1]-</span> -->
+                                                <div class="choose-item-content father1">
+                                                    <div class="choose-item-content-circle">
+                                                        <input type="radio" name="question1" id="correct1">
+                                                    </div>
+                                                    <!--choose-item-content-circle-->
+                                                    <p>التوزيع الثنائي</p>
+                                                </div> <!--choose-item-content-->
+                                            
+                                                <div class="choose-item-content not-father1">
+                                                    <div class="choose-item-content-circle">
+                                                        <input type="radio" name="question1">
+                                                    </div>
+                                                    <!--choose-item-content-circle-->
+                                                    <p>توزيع برنولي</p>
+                                                </div> <!--choose-item-content-->
+                                            
+                                                <div class="choose-item-content not-father2">
+                                                    <div class="choose-item-content-circle">
+                                                        <input type="radio" name="question1">
+                                                    </div>
+                                                    <!--choose-item-content-circle-->
+                                                    <p>توزيع بواسون</p>
+                                                </div> <!--choose-item-content-->
+                                            
+                                                <div class="choose-item-content not-father3">
+                                                    <div class="choose-item-content-circle">
+                                                        <input type="radio" name="question1">
+                                                    </div>
+                                                    <!--choose-item-content-circle-->
+                                                    <p>التوزيع الطبيعي</p>
+                                                </div> <!--choose-item-content-->
+                                            </div> <!--choose-item-->
+
+                                        </div> <!--side-left-choose-->
+
+
+                                        <div class="Question-text-item1-flex">
+                                            <span class="num"> 2]-</span>
+                                            <p>
+                                                ما هو احتمال إصابة الهدف مرتين فقط؟
+                                            </p>
+                                        </div> <!--Question-text-item1-flex-->
+
+                                        <div class="side-left-choose">
+                                           
+
+                                        
+                                            <div class="choose-item ">
+                                                <!-- <span>2]-</span> -->
+                                            <div class="choose-item-small">
+                                                <div class="choose-item-small-item1">
+                                                <div class="choose-item-content father2">
+                                                    <div class="choose-item-content-circle">
+                                                        <input type="radio" name="question2" id="correct2">
+                                                    </div>
+                                                    <!--choose-item-content-circle-->
+                                                    <div class=" math-identifier">
+                                                        <?xml version="1.0"?><math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                                                            <mstyle displaystyle="true" scriptlevel="0">
+                                                                <mrow class="MJX-TeXAtom-ORD">
+                                                                    <mi>p</mi>
+                                                                    <mo stretchy="false">(</mo>
+                                                                    <mi>x</mi>
+                                                                    <mo>=</mo>
+                                                                    <mn>2</mn>
+                                                                    <mo stretchy="false">)</mo>
+                                                                    <mo>=</mo>
+                                                                    <mi>C</mi>
+                                                                    <mo stretchy="false">(</mo>
+                                                                    <mn>5</mn>
+                                                                    <mo>,</mo>
+                                                                    <mn>2</mn>
+                                                                    <mo stretchy="false">)</mo>
+                                                                    <mo>&#x2217;<!-- ∗ --></mo>
+                                                                    <mo stretchy="false">(</mo>
+                                                                    <mn>0.85</mn>
+                                                                    <msup>
+                                                                        <mo stretchy="false">)</mo>
+                                                                        <mn>2</mn>
+                                                                    </msup>
+                                                                    <mo>&#x2217;<!-- ∗ --></mo>
+                                                                    <mo stretchy="false">(</mo>
+                                                                    <mn>0.15</mn>
+                                                                    <msup>
+                                                                        <mo stretchy="false">)</mo>
+                                                                        <mn>3</mn>
+                                                                    </msup>
+                                                                </mrow>
+                                                            </mstyle>
+                                                        </math>
+                                                    </div> <!--equation-->
+                                                </div> <!--choose-item-content-->
+                                            
+                                                <div class="choose-item-content not-father4">
+                                                    <div class="choose-item-content-circle">
+                                                        <input type="radio" name="question2">
+                                                    </div>
+                                                    <!--choose-item-content-circle-->
+                                                    <div class="math-identifier">
+                                                        <?xml version="1.0"?><math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                                                            <mstyle displaystyle="true" scriptlevel="0">
+                                                                <mrow class="MJX-TeXAtom-ORD">
+                                                                    <mi>p</mi>
+                                                                    <mo stretchy="false">(</mo>
+                                                                    <mi>x</mi>
+                                                                    <mo>=</mo>
+                                                                    <mn>2</mn>
+                                                                    <mo stretchy="false">)</mo>
+                                                                    <mo>=</mo>
+                                                                    <mi>C</mi>
+                                                                    <mo stretchy="false">(</mo>
+                                                                    <mn>5</mn>
+                                                                    <mo>,</mo>
+                                                                    <mn>2</mn>
+                                                                    <mo stretchy="false">)</mo>
+                                                                    <mo>&#x2217;<!-- ∗ --></mo>
+                                                                    <mo stretchy="false">(</mo>
+                                                                    <mn>0.85</mn>
+                                                                    <msup>
+                                                                        <mo stretchy="false">)</mo>
+                                                                        <mn>3</mn>
+                                                                    </msup>
+                                                                    <mo>&#x2217;<!-- ∗ --></mo>
+                                                                    <mo stretchy="false">(</mo>
+                                                                    <mn>0.15</mn>
+                                                                    <msup>
+                                                                        <mo stretchy="false">)</mo>
+                                                                        <mn>2</mn>
+                                                                    </msup>
+                                                                </mrow>
+                                                            </mstyle>
+                                                        </math>
+                                                    </div> <!--equation-->
+                                                </div> <!--choose-item-content-->
+                                                </div> <!--choose-item-small-item1-->
+
+
+                                            <div class="choose-item-small-item2">
+                                                <div class="choose-item-content not-father5">
+                                                    <div class="choose-item-content-circle">
+                                                        <input type="radio" name="question2">
+                                                    </div>
+                                                    <!--choose-item-content-circle-->
+                                                    <div class="math-identifier">
+                                                        <?xml version="1.0"?><math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                                                            <mstyle displaystyle="true" scriptlevel="0">
+                                                                <mrow class="MJX-TeXAtom-ORD">
+                                                                    <mi>p</mi>
+                                                                    <mo stretchy="false">(</mo>
+                                                                    <mi>x</mi>
+                                                                    <mo>=</mo>
+                                                                    <mn>2</mn>
+                                                                    <mo stretchy="false">)</mo>
+                                                                    <mo>=</mo>
+                                                                    <mi>C</mi>
+                                                                    <mo stretchy="false">(</mo>
+                                                                    <mn>2</mn>
+                                                                    <mo>,</mo>
+                                                                    <mn>5</mn>
+                                                                    <mo stretchy="false">)</mo>
+                                                                    <mo>&#x2217;<!-- ∗ --></mo>
+                                                                    <mo stretchy="false">(</mo>
+                                                                    <mn>0.85</mn>
+                                                                    <msup>
+                                                                        <mo stretchy="false">)</mo>
+                                                                        <mn>2</mn>
+                                                                    </msup>
+                                                                    <mo>&#x2217;<!-- ∗ --></mo>
+                                                                    <mo stretchy="false">(</mo>
+                                                                    <mn>0.15</mn>
+                                                                    <msup>
+                                                                        <mo stretchy="false">)</mo>
+                                                                        <mn>3</mn>
+                                                                    </msup>
+                                                                </mrow>
+                                                            </mstyle>
+                                                        </math>
+                                                    </div> <!--equation-->
+                                                </div> <!--choose-item-content-->
+                                            
+                                                <div class="choose-item-content not-father6">
+                                                    <div class="choose-item-content-circle">
+                                                        <input type="radio" name="question2">
+                                                    </div>
+                                                    <!--choose-item-content-circle-->
+                                                    <div class="math-identifier">
+                                                        <?xml version="1.0"?><math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                                                            <mstyle displaystyle="true" scriptlevel="0">
+                                                                <mrow class="MJX-TeXAtom-ORD">
+                                                                    <mi>p</mi>
+                                                                    <mo stretchy="false">(</mo>
+                                                                    <mi>x</mi>
+                                                                    <mo>=</mo>
+                                                                    <mn>2</mn>
+                                                                    <mo stretchy="false">)</mo>
+                                                                    <mo>=</mo>
+                                                                    <mi>C</mi>
+                                                                    <mo stretchy="false">(</mo>
+                                                                    <mn>2</mn>
+                                                                    <mo>,</mo>
+                                                                    <mn>5</mn>
+                                                                    <mo stretchy="false">)</mo>
+                                                                    <mo>&#x2217;<!-- ∗ --></mo>
+                                                                    <mo stretchy="false">(</mo>
+                                                                    <mn>0.85</mn>
+                                                                    <msup>
+                                                                        <mo stretchy="false">)</mo>
+                                                                        <mn>3</mn>
+                                                                    </msup>
+                                                                    <mo>&#x2217;<!-- ∗ --></mo>
+                                                                    <mo stretchy="false">(</mo>
+                                                                    <mn>0.15</mn>
+                                                                    <msup>
+                                                                        <mo stretchy="false">)</mo>
+                                                                        <mn>2</mn>
+                                                                    </msup>
+                                                                </mrow>
+                                                            </mstyle>
+                                                        </math>
+                                                    </div> <!--equation-->
+                                                </div> <!--choose-item-content-->
+                                                </div> <!--choose-item-small-item2-->
+                                                </div> <!--choose-item-small-->
+                                            </div> <!--choose-item-->
+
+                                            
+
+                                        </div> <!--side-left-choose-->
+
+
+                                        <div class="Question-text-item1-flex">
+                                            <span class="num"> 3]-</span>
+                                            <p>
+                                                ما هو احتمال إصابة الهدف مرتين على الأكثر؟
+                                            </p>
+                                        </div> <!--Question-text-item1-flex-->
+
+                                        <div class="side-left-choose">
+                                            <div class="choose-item">
+                                                <!-- <span>3]-</span> -->
+                                                <div class="choose-item-content father2">
+                                                    <div class="choose-item-content-circle">
+                                                        <input type="radio" name="question2" id="correct2">
+                                                    </div>
+                                                    <!--choose-item-content-circle-->
+                                                    <p>p(x=0)+p(x=1)+p(x=2)</p>
+                                                </div> <!--choose-item-content-->
+                                            
+                                                <div class="choose-item-content not-father4">
+                                                    <div class="choose-item-content-circle">
+                                                        <input type="radio" name="question2">
+                                                    </div>
+                                                    <!--choose-item-content-circle-->
+                                                    <p>p(x=0)*p(x=1)*p(x=2)</p>
+                                                </div> <!--choose-item-content-->
+                                            
+                                                <div class="choose-item-content not-father5">
+                                                    <div class="choose-item-content-circle">
+                                                        <input type="radio" name="question2">
+                                                    </div>
+                                                    <!--choose-item-content-circle-->
+                                                    <p>p(x=3)+p(x=4)+p(x=5)</p>
+                                                </div> <!--choose-item-content-->
+                                            
+                                                <div class="choose-item-content not-father6">
+                                                    <div class="choose-item-content-circle">
+                                                        <input type="radio" name="question2">
+                                                    </div>
+                                                    <!--choose-item-content-circle-->
+                                                    <p>p(x=3)*p(x=4)*p(x=5)</p>
+                                                </div> <!--choose-item-content-->
+                                            </div> <!--choose-item-->
+
+                                        </div> <!--side-left-choose-->
+
+                                        <div class="Question-text-item1-flex">
+                                            <span class="num"> 4]-</span>
+                                            <p>
+                                                ما هو احتمال إصابة الهدف مرتين على الأقل وأربع مرات على الأكثر؟
+                                            </p>
+                                        </div> <!--Question-text-item1-flex-->
+
+                                    </div> <!--Question-text-item1-->
+                                </div> <!--side-left-Question-text-->
+
+                                <div class="side-left-choose">
+
+
+                                    <div class="choose-item">
+                                        <!-- <span>4]-</span> -->
+                                        <div class="choose-item-content father2">
+                                            <div class="choose-item-content-circle">
+                                                <input type="radio" name="question2" id="correct2">
+                                            </div>
+                                            <!--choose-item-content-circle-->
+                                            <p>p(x=2)+p(x=3)+p(x=4)</p>
+                                        </div> <!--choose-item-content-->
+
+                                        <div class="choose-item-content not-father4">
+                                            <div class="choose-item-content-circle">
+                                                <input type="radio" name="question2">
+                                            </div>
+                                            <!--choose-item-content-circle-->
+                                            <p>p(x=2)*p(x=3)*p(x=4)</p>
+                                        </div> <!--choose-item-content-->
+
+                                        <div class="choose-item-content not-father5">
+                                            <div class="choose-item-content-circle">
+                                                <input type="radio" name="question2">
+                                            </div>
+                                            <!--choose-item-content-circle-->
+                                            <p>p(x=3)</p>
+                                        </div> <!--choose-item-content-->
+
+                                        <div class="choose-item-content not-father6">
+                                            <div class="choose-item-content-circle">
+                                                <input type="radio" name="question2">
+                                            </div>
+                                            <!--choose-item-content-circle-->
+                                            <p>p(x=2)+p(x=4)</p>
+                                        </div> <!--choose-item-content-->
+                                    </div> <!--choose-item-->
+
+                                </div> <!--side-left-choose-->
+
+                            </div> <!--ex-1-content-->
+                        </div> <!--question1-->
+                        <div class="ex-1-content">
+                            <button class="confirm">تحقق من إجاباتك
+                            </button>
+                        </div> <!--ex-1-content-->
+                    </div> <!--ex-surprise-->
+
+
+                    <div class="buttons-under-examples">
+                        <button class=" next-lesson before-lesson"><a href="#">الدرس السابق </a></button>
+                    
+                        <button class="next-lesson after-lesson"><a href="#">تدرب الآن </a></button>
+                    </div> <!--buttons-under-examples-->
+
+                </div> <!--container-side-left-->
+            </div> <!--side-left-content-->
+        </div> <!--side-left-->
+    </div> <!--home-->
+    <!--End Content-->
+
+    <script src="lesson1.js"></script>
+</body>
+
+</html>
