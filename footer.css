@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Montserrat:ital,wght@0,100;0,200;1,100&display=swap');
+footer {
+
+    height: 485;
+    background-color: #000;
+    /* color: white; */
+}
+
+.footer-items {
+    padding: 96px 5px;
+}
+
+.footer-item1 {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    direction: ltr;
+    justify-content: space-between;
+    position: relative;
+}
+
+.footer-item1-25 {
+    color: rgba(255, 255, 255, 0.75);
+    font-family: Montserrat;
+    font-size: 29px;
+    font-weight: 700;
+}
+
+.footer-item1::after {
+    content: "";
+    position: absolute;
+    top: 100px;
+    /* margin-bottom: 40px; */
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.30);
+
+}
+
+.footer-item2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    direction: ltr
+}
+
+.footer-item2-part {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-item2-part p {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Montserrat;
+    font-size: 29px;
+    font-weight: 700;
+}
+
+.footer-item2-part .Color {
+    color: #00B4A9;
+    font-family: Montserrat;
+    font-size: 29px;
+    font-weight: 700;
+}
+
+
+@media screen and (min-width:401px) and (max-width:825px) {
+    .footer-items {
+        padding-bottom: 20px;
+        padding-top: 32px;
+    }
+
+    .footer-item1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-item1-img
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        .footer-item1-img img
+        {
+            width: 70%;
+
+        }
+
+    .footer-item1-25 {
+        color: rgba(255, 255, 255, 0.75);
+        font-family: Montserrat;
+        font-size: 22px;
+        font-weight: 700;
+        /* gap: 32px; */
+        padding-top: 32px;
+    }
+
+    .footer-item1::after {
+        background-color: transparent;
+    }
+
+    .footer-item2 {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        font-family: Montserrat;
+    }
+}
