@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Cairo', sans-serif;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* span
+{
+    display: block;
+} */
+
+
+/* ------------------------------------------------ */
+.home
+{
+    margin-bottom: 96px;
+}
+.span-head
+{
+    display: block;
+    text-align: center;
+    margin-top: 16px;
+    font-size: 18px;
+    color: black;
+    letter-spacing: 0.48px;
+    opacity: 0.4;
+}
+h1{
+    margin-top: 96px;
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+}
+.advatages-items
+{
+    display: flex;
+    flex-direction: column;
+}
+.advatages-item
+{
+    margin-top: 96px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+}
+.advatages-item-image
+{
+    margin-top: 40px;
+    width: 50%;
+}
+.advatages-item-image img
+{
+    width: 100%;
+}
+.advatages-item-content
+{
+    width: 60%;
+}
+.advatages-item1 ul
+{
+    color: #0AD172;
+    font-size: 18px;
+}
+.advatages-item1 ul li
+{
+    border-radius: 8px;
+    background: rgba(10, 209, 114, 0.08);
+    margin-top: 8px ;
+    width: 300px;
+    padding: 4px 6px;
+}
+.advatages-item1 ul li i
+{
+    font-size: 14px;
+}
+.advantages-item-content-icons
+{
+    /* display: block;
+    width: 64px;
+    height: 64px;
+    border-radius: 100px;
+    background-color: #316BFF; */
+    margin-bottom: 24px;
+}
+.advatages-item2 .item-circle
+{
+    background-color: #0AD172;
+}
+.advatages-item2 ul li
+{
+    border-radius: 8px;
+    background: rgba(10, 209, 114, 0.08);
+    margin-top: 8px;
+    width: 350px;
+    padding: 4px 6px;
+}
+.advatages-item ul li i
+{
+    font-size: 14px;
+}
+.advatages-item3 ul li 
+{
+
+    border-radius: 8px;
+    background: rgba(255, 69, 69, 0.08);
+    margin-top: 8px;
+    width: 450px;
+    padding: 4px 6px;
+}
+.advatages-item4 ul li {
+
+    border-radius: 8px;
+    background: rgba(107, 115, 255, 0.08);
+    margin-top: 8px;
+    width: 470px;
+    padding: 4px 6px;
+}
+.advatages-item2 ul , .advatages-item4
+{
+    color: #316BFF;
+}
+.advatages-item3 .item-circle
+{
+    background-color: #FF4545;
+}
+.advatages-item3 ul 
+{
+    color: #FF4545;
+}
+
+.advatages-item-header
+{
+    padding-bottom: 24px;
+    color: #000;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 30px;
+    font-weight: 700;
+}
+.advatages-item-p
+{
+    padding-bottom: 24px;
+    color: #191919;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+@media screen and (min-width:401px) and (max-width:768px){ 
+    .container-home
+    {
+        width: 95%;
+        margin: auto;
+    }
+    .advatages-item {
+    margin-top: 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+    .advatages-item-image {
+        margin-top: 40px;
+        /* width: 50%; */
+    }
+
+    .advatages-item-image img {
+        width: 100%;
+    }
+
+    .advatages-item-content {
+        /* width: 40%; */
+    }
+}
+/* ------------------------------------------ */
+.upload
+{
+    padding-top: 96px;
+    padding-bottom: 150px;
+}
+.upload-items
+{
+    display: flex;
+    flex-direction: row;
+    border-radius: 16px;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0.25) 18.19%, rgba(255, 255, 255, 0.00) 48.52%), radial-gradient(3337.85% 250% at 124.26% -37.06%, rgba(102, 0, 255, 0.90) 0%, rgba(102, 0, 255, 0.00) 100%), linear-gradient(93deg, rgba(171, 220, 255, 0.95) -10.51%, rgba(3, 150, 255, 0.95) 125.29%);
+    justify-content: space-between;
+    align-items: center;
+    padding: 44px;
+    position: relative;
+    height: 228px;
+}
+.upload-item1
+{
+width: 343px;
+height: 140px;
+}
+.upload-item1 h3{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 12px;
+}
+.upload-item1 p
+{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: -0.39px;
+}
+.upload-item2
+{
+    width: 336px;
+    height: 356.106px;
+    position: absolute;
+    left: 120px;
+    top: -64.444px;
+    padding-left: 50%;
+}
+.upload-item3
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+        padding-right: 20px;
+    /* align-items: center; */
+}
+.upload-item3 button
+{
+    width: 105px;
+    height: 38px;
+    position: absolute;
+    left: 52px;
+    top: 45px;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    opacity: 0.8;
+    transition: opacity 0.5s;
+}
+.upload-item3 button:hover
+{
+    opacity: 1;
+}
+.upload-item3 button a
+{
+    text-align: center;
+    display: block;
+    /* padding: 8px 20px; */
+    color: #181C71;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Cairo;
+}
+.upload-item3 ul
+{
+    padding-top: 7px;
+    display: flex;
+    flex-direction: row;
+    height: 18.799px;
+    /* flex-shrink: 0; */
+    padding-left: 10px;
+    justify-content: center;
+}
+.upload-item3 ul li i
+{
+    display: block;
+    color:#ffff00 ;
+}
+
+.upload-item3-span
+{
+    display: flex;
+    flex-direction: row;
+    font-weight: 800;
+    letter-spacing: 0.48px;
+    padding-top: 10px;
+    padding-left: 7px;
+    display: block;
+    font-size: 12px;
+}
+.upload-item3-span .span-1
+{
+    color: #fff;
+}
+.upload-item3-span .span-2
+{
+color: rgba(255, 255, 255, 0.50);
+}
+@media screen and (min-width:401px) and (max-width:768px) {
+    .upload-item1 {
+            width: 150px;
+            height: 200px;
+        }
+    
+        .upload-item1 h3 {
+            font-size: 20px;
+        }
+    
+        .upload-item1 p {
+            font-size: 13px;
+        }
+        .upload-item3 button {
+            width: 95px;
+            height: 38px;
+            position: absolute;
+            left: 32px;
+            top: 65px;
+            border-radius: 8px;
+            background-color: #fff;
+        }
+        .upload-item3
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .upload-item3 ul
+        {
+            margin-right: 260px;
+        }
+        .upload-item3-span
+        {
+        margin-right: 260px;
+        }
+}
